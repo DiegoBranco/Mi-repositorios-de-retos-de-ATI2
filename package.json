@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/test-utils": "^2.4.0-alpha.2",
+    "jsdom": "^27.2.0",
+    "vitest": "^4.0.9"
+  },
+  "dependencies": {
+    "happy-dom": "^20.0.10"
+  }
+}
