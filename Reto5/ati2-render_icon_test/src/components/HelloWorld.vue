@@ -45,8 +45,8 @@
     </div>
   
     <v-footer class="text-center d-flex flex-column ga-2 py-4" color="indigo-lighten-1">
-    <div class="d-flex ga-3">
-      <v-btn
+    <div class="d-flex ga-3" v-if="renderIcons">
+      <v-btn data-test="icon-buttons"
         v-for="icon in icons"
         :key="icon"
         :icon="icon"
@@ -71,11 +71,15 @@
 </template>
 
 <script setup lang="ts">
+import { tr } from 'vuetify/locale';
+
   const icons = [
     'mdi-facebook',
     'mdi-twitter',
     'mdi-linkedin',
     'mdi-instagram',
   ]
+
+  const renderIcons = true;
   
 </script>
