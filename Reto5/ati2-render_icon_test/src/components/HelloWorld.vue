@@ -8,8 +8,8 @@
       />
 
       <div class="mb-8 text-center">
-        <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
-        <h1 class="text-h2 font-weight-bold">Vuetify</h1>
+        <div class="text-body-2 font-weight-light mb-n1">Testing</div>
+        <h1 class="text-h2 font-weight-bold">Social Icons</h1>
       </div>
 
       <v-row>
@@ -28,63 +28,54 @@
 
             <template #title>
               <h2 class="text-h5 font-weight-bold">
-                Get started
+                vitest y vue testing library
               </h2>
             </template>
 
             <template #subtitle>
               <div class="text-subtitle-1">
-                Change this page by updating <v-kbd>{{ `<HelloWorld />` }}</v-kbd> in <v-kbd>components/HelloWorld.vue</v-kbd>.
+               Vamos a probar si renderean los iconos en <v-kbd>components/HelloWorld.vue</v-kbd>.
               </div>
             </template>
           </v-card>
         </v-col>
 
-        <v-col v-for="link in links" :key="link.href" cols="6">
-          <v-card
-            append-icon="mdi-open-in-new"
-            class="py-4"
-            color="surface-variant"
-            :href="link.href"
-            :prepend-icon="link.icon"
-            rel="noopener noreferrer"
-            rounded="lg"
-            :subtitle="link.subtitle"
-            target="_blank"
-            :title="link.title"
-            variant="tonal"
-          />
-        </v-col>
+        
       </v-row>
     </div>
+  
+    <v-footer class="text-center d-flex flex-column ga-2 py-4" color="indigo-lighten-1">
+    <div class="d-flex ga-3">
+      <v-btn
+        v-for="icon in icons"
+        :key="icon"
+        :icon="icon"
+        density="comfortable"
+        variant="text"
+      ></v-btn>
+    </div>
+
+    <v-divider class="my-2" thickness="2" width="50"></v-divider>
+
+    <div class="text-caption font-weight-regular opacity-60">
+      Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    </div>
+
+    <v-divider></v-divider>
+
+    <div>
+      {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+    </div>
+  </v-footer>
   </v-container>
 </template>
 
 <script setup lang="ts">
-  const links = [
-    {
-      href: 'https://vuetifyjs.com/',
-      icon: 'mdi-text-box-outline',
-      subtitle: 'Learn about all things Vuetify in our documentation.',
-      title: 'Documentation',
-    },
-    {
-      href: 'https://vuetifyjs.com/introduction/why-vuetify/#feature-guides',
-      icon: 'mdi-star-circle-outline',
-      subtitle: 'Explore available framework Features.',
-      title: 'Features',
-    },
-    {
-      href: 'https://vuetifyjs.com/components/all',
-      icon: 'mdi-widgets-outline',
-      subtitle: 'Discover components in the API Explorer.',
-      title: 'Components',
-    },
-    {
-      href: 'https://discord.vuetifyjs.com',
-      icon: 'mdi-account-group-outline',
-      subtitle: 'Connect with Vuetify developers.',
-      title: 'Community',
-    },
+  const icons = [
+    'mdi-facebook',
+    'mdi-twitter',
+    'mdi-linkedin',
+    'mdi-instagram',
   ]
+  
 </script>
