@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import { createI18n } from 'vue-i18n'
+import { useI18n } from 'vue-i18n'
+
+
 </script>
 
 <template>
