@@ -1,17 +1,24 @@
 <script setup lang="ts">
 import TheWelcome from '../components/TheWelcome.vue'
-import { useVueToPrint } from "vue-to-print";
-import { reactive, ref } from "vue";
-
+import { ref } from "vue";
+import html2pdf from "html2pdf.js";
 const componentRef = ref();
-const state = reactive({ text: "old boring text" });
 
-
-const { handlePrint } = useVueToPrint({
-  content: componentRef,
-  documentTitle: "AwesomeFileName",
-  removeAfterPrint: true
-});
+const handlePrint = () => {
+  const element = componentRef.value.$el;
+  const opt = {
+  margin:       1,
+  filename:     'myfile.pdf',
+  image:        { type: "jpeg", quality: 0.98 },
+  html2canvas:  { scale: 2 },
+  jsPDF:        { unit: 'in', format: 'letter',
+   orientation: 'portrait' }
+  } as const;
+  html2pdf()
+    .from(element)
+    .set(opt)
+    .save();
+};
 
 </script>
 

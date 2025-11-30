@@ -17,6 +17,10 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "html2canvas": "^1.4.1",
+    "html2pdf": "^0.0.11",
+    "html2pdf.js": "^0.12.1",
+    "jspdf": "^3.0.4",
     "pinia": "^3.0.3",
     "vue": "^3.5.22",
     "vue-i18n": "^11.1.12",
@@ -25,6 +29,7 @@
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
+    "@types/html2pdf.js": "^0.10.0",
     "@types/jsdom": "^27.0.0",
     "@types/node": "^22.18.11",
     "@vitejs/plugin-vue": "^6.0.1",
