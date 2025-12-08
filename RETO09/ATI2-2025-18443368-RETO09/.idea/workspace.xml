@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a31d962-c390-4220-a8d4-48d801427d06" name="Changes" comment="Mi primera&#10;Integración continua (IC) con git action">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioEureka/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioEureka/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioEureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioEureka/pomOLD.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioEureka/src/main/java/com/laboratorio4/ati2microservicio/ati2microservicioEurekaServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioEureka/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioEureka/src/test/java/com/laboratorio4/ati2microservicio/ati2microservicioEurekaServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioGateway/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioGateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioGateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioGateway/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioGateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioGateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioGateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioGateway/src/main/java/com/laboratorio4/ati2microservicio/Ati2microservicioApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioGateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ati2microservicioGateway/src/test/java/com/laboratorio4/ati2microservicio/Ati2microservicioApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/laboratorio4/demo/Ati2microservicioGreetingMicroserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/laboratorio4/demo/GreetingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/laboratorio4/demo/GreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/laboratorio4/demo/GreetingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/laboratorio4/demo/Ati2microservicioGreetingMicroserviceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/laboratorio4/ati2microservicio/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/laboratorio4/ati2microservicio/GreetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/laboratorio4/ati2microservicio/GreetingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/laboratorio4/demo/Ati2microservicioGreetingMicroserviceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.laboratorio4.demo.Ati2microservicioGreetingMicroserviceApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/com.laboratorio4.demo.Ati2microservicioGreetingMicroserviceApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/test-classes/com/laboratorio4/demo/Ati2microservicioGreetingMicroserviceApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laboratorio4/ati2microservicio/ati2microservicioEurekaServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reto09-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reto09-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.laboratorio4.ati2microservicio.ati2microservicioEurekaServerApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.laboratorio4.ati2microservicio.ati2microservicioEurekaServerApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/laboratorio4/ati2microservicio/ati2microservicioEurekaServerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[02]reto09.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DiegoBranco&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DiegoBranco/Mi-repositorios-de-retos-de-ATI2&quot;,
+    &quot;accountId&quot;: &quot;e3fbfeea-07b4-44d9-a6f3-9053cdde6ac6&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;DiegoBranco&quot;,
+    &quot;repository&quot;: &quot;Mi-repositorios-de-retos-de-ATI2&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\Maven\apache-maven-3.9.9" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="36DAENtnRvAvoLsY29ILIctqD7A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Reto09&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a31d962-c390-4220-a8d4-48d801427d06" name="Changes" comment="" />
+      <created>1764530660848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764530660848</updated>
+    </task>
+    <task id="LOCAL-00001" summary="paso 13">
+      <option name="closed" value="true" />
+      <created>1764533464534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764533464534</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gateway">
+      <option name="closed" value="true" />
+      <created>1764535748011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764535748011</updated>
+    </task>
+    <task id="LOCAL-00003" summary="greeting">
+      <option name="closed" value="true" />
+      <created>1764538756514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764538756514</updated>
+    </task>
+    <task id="LOCAL-00004" summary="dockerfiles">
+      <option name="closed" value="true" />
+      <created>1764539133414</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764539133414</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Mi primera&#10;Integración continua (IC) con git action">
+      <option name="closed" value="true" />
+      <created>1765188887253</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765188887254</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="paso 13" />
+    <MESSAGE value="gateway" />
+    <MESSAGE value="greeting" />
+    <MESSAGE value="dockerfiles" />
+    <MESSAGE value="Mi primera&#10;Integración continua (IC) con git action" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mi primera&#10;Integración continua (IC) con git action" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/main/java/com/laboratorio4/demo/GreetingServiceImpl.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
