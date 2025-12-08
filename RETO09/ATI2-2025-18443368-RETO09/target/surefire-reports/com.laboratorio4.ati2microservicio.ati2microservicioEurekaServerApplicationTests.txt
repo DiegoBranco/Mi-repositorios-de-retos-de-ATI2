@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.laboratorio4.ati2microservicio.ati2microservicioEurekaServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.819 s -- in com.laboratorio4.ati2microservicio.ati2microservicioEurekaServerApplicationTests
